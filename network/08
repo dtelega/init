@@ -1,0 +1,36 @@
+At first, find out slash16.org ip address
+host slash16.org
+result:
+
+slash16.org has address 52.84.197.139
+slash16.org has address 52.84.197.41
+slash16.org has address 52.84.197.107
+slash16.org has address 52.84.197.10
+slash16.org mail is handled by 1 aspmx.l.google.com.
+slash16.org mail is handled by 5 alt2.aspmx.l.google.com.
+slash16.org mail is handled by 5 alt1.aspmx.l.google.com.
+slash16.org mail is handled by 10 alt3.aspmx.l.google.com.
+slash16.org mail is handled by 10 alt4.aspmx.l.google.com.
+
+
+or
+nslookup slash16.org
+result:
+Server:		10.51.1.253
+Address:	10.51.1.253#53
+
+Non-authoritative answer:
+Name:		  slash16.org
+Address: 52.84.197.107
+Name:	 slash16.org
+Address: 52.84.197.41
+Name:	 slash16.org
+Address: 52.84.197.139
+Name:	 slash16.org
+Address: 52.84.197.10
+
+Then we can find out provider name by using 'whois ip'
+
+whois 52.84.197.107
+
+provider: Amazon Technologies Inc.
