@@ -6,9 +6,8 @@ MAINTAINER dtelega <dtelega@student.unit.ua>
 RUN \
   apt-get update && \
   apt-get -y upgrade && \
-  apt-get clean && \
-  apt-get install openssh-server
-
+  apt-get clean
+  
 # Set environment variables.
 ENV HOME /root
 
