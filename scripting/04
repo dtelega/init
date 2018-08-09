@@ -10,3 +10,5 @@ then
 else
     md5sum /etc/crontab > /root/hash.md5
 fi
+
+# add '@midnight $path_to_file 'in crontab file

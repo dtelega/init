@@ -8,5 +8,4 @@ apt-get upgrade >> $LOG_FILE
 
 # need to use crontab:
 #  $ crontab -e
-#  add '0 4 * * 1 /root/script.sh' string to crontab file.
-#  script file path: /root/sctipt.sh
+#  add '0 4 * * 1 /path/to/file.sh' string to crontab file.
